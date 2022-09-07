@@ -253,7 +253,7 @@ checked program was:
 /* end */
 
 "gcc -o conftest -I/usr/local/include/ruby-2.7.0/aarch64-linux -I/usr/local/include/ruby-2.7.0/ruby/backward -I/usr/local/include/ruby-2.7.0 -I.     -g -O2 -fPIC  conftest.c  -L. -L/usr/local/lib -Wl,-rpath,/usr/local/lib -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic      -lssl -lcrypto -Wl,-rpath,/usr/local/lib -L/usr/local/lib -lruby  -lssl -lcrypto -lm   -lc"
-/usr/bin/ld: /tmp/cck5OGuS.o: in function `t':
+/usr/bin/ld: /tmp/ccVZK3UX.o: in function `t':
 /app/vendor/cache/ruby/2.7.0/gems/puma-5.6.5/ext/puma_http11/conftest.c:17: undefined reference to `SSL_get1_peer_certificate'
 collect2: error: ld returned 1 exit status
 checked program was:

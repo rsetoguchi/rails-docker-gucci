@@ -133,7 +133,7 @@ checked program was:
 /* end */
 
 "gcc -o conftest -I/usr/local/include/ruby-2.7.0/aarch64-linux -I/usr/local/include/ruby-2.7.0/ruby/backward -I/usr/local/include/ruby-2.7.0 -I.    -g -O2 -fPIC conftest.c  -L. -L/usr/local/lib -Wl,-rpath,/usr/local/lib -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic     -Wl,-rpath,/usr/local/lib -L/usr/local/lib -lruby  -lm   -lc"
-/usr/bin/ld: /tmp/ccq2v2Ye.o: in function `t':
+/usr/bin/ld: /tmp/ccCORcmm.o: in function `t':
 /app/vendor/cache/ruby/2.7.0/gems/mysql2-0.5.4/ext/mysql2/conftest.c:17: undefined reference to `rb_enc_interned_str'
 collect2: error: ld returned 1 exit status
 checked program was:
