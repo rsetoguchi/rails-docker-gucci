@@ -10,7 +10,7 @@ jobs:
     steps:
       - checkout:
           path: ~/rails-docker-gucci
-      - ruby/bundle-install
+      - ruby/install-deps
 
   test:
     docker:
