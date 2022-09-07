@@ -1,5 +1,5 @@
 # Rubyの2.7を使用
-FROM ruby:2.7
+FROM ruby:2.7.5
 
 # 環境変数設定
 ENV RAILS_ENV=test
