@@ -2,7 +2,7 @@
 FROM ruby:2.7.5
 
 # 環境変数設定
-ENV RAILS_ENV=test
+ENV RAILS_ENV=production
 
 # 必要なライブラリをインストール
 RUN curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add - \
