@@ -1,15 +1,29 @@
-<!DOCTYPE html>
-<html lang="ja">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="homes.scss" />
-    <title>Top Page</title>
-  </head>
-
-  <body>
-    <div class="main-visual">
-      <h1>Congratulations on your automatic deployment!!</h1>
-      <h2>created user : Ryo.S</h2>
-    </div>
-  </body>
-</html>
+<div id="bird">
+  <div class="main-visual">
+    <h1>Congratulations on your automatic deployment!!</h1>
+    <h2>created user : Ryo.S</h2>
+  </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+<script>
+  VANTA.BIRDS({
+    el: "#bird",
+    mouseControls: true,
+    touchControls: true,
+    gyroControls: false,
+    minHeight: 970.00,
+    minWidth: 200.00,
+    scale: 1.00,
+    scaleMobile: 1.00,
+    backgroundColor: 0x22652,
+    color1: 0x91243d,
+    color2: 0x1bc1fa,
+    birdSize: 1.20,
+    wingSpan: 33.00,
+    speedLimit: 7.00,
+    separation: 31.00,
+    alignment: 26.00,
+    cohesion: 17.00
+  })
+</script>
