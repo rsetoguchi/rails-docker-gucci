@@ -1,0 +1,20 @@
+// Place all the styles related to the homes controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+body {
+  background: linear-gradient(-45deg, #016272, rgba(17, 47, 74, .99)) fixed;
+  background-size: cover;
+}
+.main-visual {
+  text-align: center;
+  color: transparent;
+	background: linear-gradient(45deg, #B67B03 0%, #DAAF08 45%, #FEE9A0 70%, #DAAF08 85%, #B67B03 90% 100%);
+	-webkit-background-clip: text;
+  width: auto;
+  padding-top: 180px;
+  padding-right: 30px;
+  padding-left: 30px;
+  font-size: 35px;
+  font-style: italic;
+  font-family: Times New Roman, "ＭＳ Ｐゴシック";
+}
