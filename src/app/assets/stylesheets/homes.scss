@@ -20,9 +20,6 @@ body {
   font-style: italic;
   font-family: Times New Roman, "ＭＳ Ｐゴシック";
 }
-canvas {
-  min-height: 970px;
-}
 
 @media screen and (max-width:768px) {
   .main-visual {
@@ -39,8 +36,5 @@ canvas {
     padding-right: 10px;
     padding-left: 10px;
     font-size: 16px;
-  }
-  canvas {
-    min-height: 600px;
   }
 }
