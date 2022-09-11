@@ -13,10 +13,34 @@ body {
 	background: linear-gradient(45deg, #B67B03 0%, #DAAF08 45%, #FEE9A0 70%, #DAAF08 85%, #B67B03 90% 100%);
 	-webkit-background-clip: text;
   width: auto;
-  padding-top: 180px;
+  padding-top: 100px;
   padding-right: 30px;
   padding-left: 30px;
   font-size: 35px;
   font-style: italic;
   font-family: Times New Roman, "ＭＳ Ｐゴシック";
+}
+canvas {
+  min-height: 970px;
+}
+
+@media screen and (max-width:768px) {
+  .main-visual {
+    padding-top: 40px;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width:425px) {
+  .main-visual {
+    padding-top: 35px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 16px;
+  }
+  canvas {
+    min-height: 450px;
+  }
 }
